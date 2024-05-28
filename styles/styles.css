@@ -1,0 +1,37 @@
+h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.marker .body {
+    height: 2rem;
+    width: 8rem;
+    margin-bottom: 1rem;
+}
+
+/* .marker .body::before {
+    content: "| |";
+    height: 2rem;
+    width: 100%;
+    opacity: 0.8;
+}
+.marker .body::after {
+    content: "||";
+    height: 2rem;
+    width: 3rem;
+    opacity: 0.8;
+} */
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
