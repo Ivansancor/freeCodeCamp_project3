@@ -5,33 +5,38 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.marker .body {
+.marker {
     height: 2rem;
-    width: 8rem;
-    margin-bottom: 1rem;
+    width: 12rem;
+    margin: 3rem auto;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.1rem rgba(0, 0, 0, 0.25);
 }
-
-/* .marker .body::before {
-    content: "| |";
-    height: 2rem;
-    width: 100%;
-    opacity: 0.8;
-}
-.marker .body::after {
-    content: "||";
-    height: 2rem;
-    width: 3rem;
-    opacity: 0.8;
-} */
 
 .red {
-    background-color: red;
+    background: linear-gradient(rgb(255, 0, 0), rgb(227, 100, 100), rgb(255, 0, 0));
 }
 
 .green {
-    background-color: green;
+    background: linear-gradient(#007F00, #afffaf, #007F00);
 }
 
 .blue {
-    background-color: blue;
+    background: linear-gradient(hsl(240, 100%, 50%), hsl(240, 100%, 75%), hsl(240, 100%, 50%));
+}
+
+.cap, .sleeve {
+    display: inline-block;
+}
+
+.cap {
+    width: 4rem;
+    height: 2rem;
+}
+
+.sleeve {
+    width: 6rem;
+    height: 2rem;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-left: 0.5rem double white;
+
 }
